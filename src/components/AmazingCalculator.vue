@@ -42,7 +42,7 @@ const clearOneCharacter = () => {
     <div class="calculator">
       <h1>The Best Calculator Ever</h1>
 
-      <input v-model="display" :class="displayClass" />
+      <input v-model="display" :class="displayClass" readonly/>
 
       <div class="buttons">
         <button @click="appendToDisplay('7')">7</button>
@@ -78,6 +78,7 @@ const clearOneCharacter = () => {
 <style>
 * {
   font-family: monospace;
+  font-weight: bold;
 }
 
 .calculator {
@@ -141,4 +142,9 @@ button {
 .small-text {
   font-size: 14px;
 }
+
+.button-equal {
+  background-color: chartreuse;
+}
+
 </style>
