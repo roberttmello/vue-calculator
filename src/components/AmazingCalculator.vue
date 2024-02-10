@@ -38,7 +38,7 @@ const clearOneCharacter = () => {
 </script>
 
 <template>
-  <div>
+  <div class="container">
     <div class="calculator">
       <h1>The Best Calculator Ever</h1>
 
@@ -79,6 +79,13 @@ const clearOneCharacter = () => {
 * {
   font-family: monospace;
   font-weight: bold;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-content: center;
 }
 
 .calculator {
