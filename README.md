@@ -4,7 +4,7 @@ The best calculator ever with Vue 3 and Composition API 🧑‍💻
 
 ## Demo
 
-👉 Acess the demo [**HERE**](https://roberttmello-vue-calculator.vercel.app)
+👉 Access the demo [**HERE**](https://roberttmello-vue-calculator.vercel.app)
 
 ## Project Setup
 
